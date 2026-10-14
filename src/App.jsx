@@ -20,7 +20,7 @@ export default function App() {
           {/* Logo de la Gota original */}
           <div className="flex justify-center mb-6">
             <img 
-              src="public\gota-no-bg.png" 
+              src="public/gota-no-bg.png" 
               alt="Logo Fontanería A. Sanz" 
               className="w-32 h-auto drop-shadow-md"
             />
