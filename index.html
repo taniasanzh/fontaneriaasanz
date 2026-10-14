@@ -1,12 +1,66 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>fontaneria-web</title>
+    
+    <!-- TÍTULO Y DESCRIPCIÓN OPTIMIZADOS PARA SEO LOCAL -->
+    <title>Fontanería A. Sanz en Alicante | Urgencias y Presupuestos</title>
+    <meta name="description" content="Fontanería A. Sanz en Alicante. Más de 20 años de experiencia. Fontanería general, agua caliente, calefacción, gas y osmosis. Llámanos al 966101012 o 630131635." />
+    <meta name="keywords" content="fontanería, fontanero Alicante, reparaciones, calefacción, gas, osmosis, urgencias fontanería" />
+    
+    <!-- SCHEMA MARKUP -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "PlumbingService",
+      "name": "Fontanería A. Sanz",
+      "image": "https://fontaneriaasanz.com/gota.jpg",
+      "telephone": ["+34 966 10 10 12", "+34 630 13 16 35"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C/ Haroldo Parres nº 1",
+        "addressLocality": "Alicante",
+        "postalCode": "03013",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.355152,
+        "longitude": -0.478440
+      },
+      "url": "https://fontaneriaasanz.com",
+      "priceRange": "€€",
+      "description": "Más de 20 años al servicio de nuestros clientes en Alicante."
+    }
+    </script>
   </head>
+  
   <body>
+    <!-- GOOGLE -->
+    <div id="seo-fallback" style="display: none;">
+      <h1>Fontanería A. Sanz - Alicante</h1>
+      <p>Más de 20 años al servicio de nuestros clientes.</p>
+      <h2>Contacto y Urgencias</h2>
+      <p>Teléfonos: 966 10 10 12 / 630 13 16 35</p>
+      <h2>Dirección</h2>
+      <p>C/ Haroldo Parres nº 1, 03013 Alicante</p>
+      <h2>Nuestros Servicios</h2>
+      <ul>
+        <li>Fontanería</li>
+        <li>Agua caliente sanitaria</li>
+        <li>Calefacción</li>
+        <li>Energía solar térmica</li>
+        <li>Instalaciones de gas</li>
+        <li>Grupos de presión</li>
+        <li>Tratamientos de agua</li>
+        <li>Descalcificadores y osmosis</li>
+        <li>Instalaciones en obra nueva</li>
+        <li>Reparaciones y reformas</li>
+      </ul>
+    </div>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
